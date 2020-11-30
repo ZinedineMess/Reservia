@@ -1,0 +1,338 @@
+/* POLICE */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* GENERAL */
+html {
+	font-family: "Raleway", sans-serif;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.fas {
+	color: #0065fc;
+}
+
+/*  HEADER  */
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 0.5rem;
+}
+
+.header-container h1 {
+	display: block;
+	width: auto;
+	margin-left: 1rem;
+}
+
+nav {
+	order: 3;
+	width: 100%;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+	transition: color 0.5s ease;
+}
+
+nav a:hover {
+	color: #0065fc;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+
+nav li {
+	width: 50%;
+	text-align: center;
+	padding-bottom: 1rem;
+	border-bottom: 3px solid #f2f2f2;
+	transition: border 0.5s ease;
+}
+
+nav li:hover {
+	border-bottom: 3px solid #0065fc;
+}
+
+.nav-activated {
+	color: #0065fc;
+}
+
+.nav-activated a {
+	color: #0065fc;
+}
+
+.inscrire {
+	display: flex;
+	align-items: center;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	color: #0065fc;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*  SECTION RECHERCHE  */
+.search-section {
+	margin-left: 2rem;
+}
+
+.search-section header h2 {
+	font-weight: bolder;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 8rem;
+}
+
+.search-form {
+	display: flex;
+	margin-right: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	border-top: #f2f2f2 1px solid;
+	border-bottom: #f2f2f2 1px solid;
+	border-radius: 1rem;
+}
+
+.search-form span {
+	background-color: #f2f2f2;
+	padding: 1rem 1.25rem;
+	border-radius: 1rem 0 0 1rem;
+}
+
+.search-form input {
+	width: 100%;
+	border: none;
+	padding-left: 1rem;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.search-form button {
+	background-color: #0065fc;
+	font-weight: bold;
+	border: none;
+	font-size: 100%;
+	border-radius: 1rem;
+	padding: 0 1.25rem;
+	cursor: pointer;
+	transition: opacity 0.2s ease;
+	opacity: 1;
+}
+
+.fa-search-white {
+	color: #fff;
+}
+
+.search-button-name {
+	display: none;
+}
+
+.search-form button:hover {
+	opacity: 0.7;
+}
+
+.filter-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.filter-container h3 {
+	width: 100%;
+	margin: 0 2rem 1rem 0;
+}
+
+.filter-container div {
+	display: flex;
+	align-items: center;
+	margin-right: 0.75rem;
+	border: 2px solid #d9d9d9;
+	border-radius: 2rem;
+	margin-bottom: 0.75rem;
+	transition: background 0.5s;
+	cursor: pointer;
+}
+
+.filter-container div:hover {
+	background: #f2f2f2;
+}
+
+.filter-container span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3rem;
+	width: 3rem;
+	margin: -2px;
+	background-color: #deebff;
+	border-radius: 100%;
+}
+
+.map-marker-alt-black {
+	color: black;
+}
+
+.filter-container p {
+	margin: 0 0.75rem;
+	font-weight: bold;
+}
+
+.filter-result {
+	display: flex;
+	align-items: center;
+	margin: 0.5rem 0 0 0;
+}
+
+.filter-result span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 1.5rem;
+	min-width: 1.5rem;
+	margin-right: 0.5rem;
+	border: solid 1px #d9d9d9;
+	border-radius: 100%;
+}
+
+.filter-result p {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 6rem;
+}
+
+/* SECTION HEBERGEMENT */
+/* SECTION HEBERGEMENT */
+#hébergements {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.hébergements-marseille {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.hébergements-marseille article {
+	background: #fff;
+	border-radius: 1rem;
+	box-shadow: 0 0 10px #0000002e;
+	padding: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+.hébergements-marseille img {
+	border-radius: 1rem;
+	object-fit: cover;
+	border-radius: 1rem 1rem 0 0;
+	height: 8em;
+	width: 100%;
+}
+
+.hébergements-marseille h3 {
+	margin: 00.5rem;
+	color: #000;
+}
+
+.hébergements-marseille p {
+	margin: 0.5rem;
+	margin-bottom: 0.4rem;
+	color: #000;
+}
+
+.hébergements-marseille span {
+	margin: 00.5rem;
+	font-size: 75%;
+}
+
+.hébergements-marseille a {
+	color: #000;
+	text-decoration: none;
+}
+
+.grey-star {
+	color: #f2f2f2;
+}
+
+.hébergements-marseille div {
+	margin-top: 2rem;
+	font-size: 125%;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.hébergements-marseille div a {
+	color: #000;
+	text-decoration: none;
+}
+
+.hébergements-marseille div a:hover {
+	color: #0065fc;
+}
+
+/* SECTION HEBERGEMENt POPULAIRES */
+aside {
+	background: #f2f2f2;
+	margin-top: 1.5rem;
+}
+
+aside header {
+	margin-left: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+aside article {
+	border-radius: 1rem;
+	box-shadow: 0 0 10px #0000002e;
+	padding: 0.3rem;
+	margin-bottom: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.chart-line-black {
+	color: #000;
+	display: flex;
+	align-self: center;
+	margin-right: 1rem;
+
+}
+
+aside img {
+	border-radius: 1rem;
+	border-radius: 1rem 0 0 1rem;
+	object-fit: cover;
+	height: 8em;
+	width: 100%;
+}
+
+aside h3 {
+	margin: 00.5rem;
+	color: #000;
+}
+
+aside p {
+	margin: 00.5rem;
+	color: #000;
+}
+
+aside span {
+	margin: 00.5rem;
+	font-size: 75%;
+	color: #000;
+}
+
+aside a {
+	color: #000;
+	text-decoration: none;
+}
