@@ -211,7 +211,6 @@ nav li:hover {
 }
 
 /* SECTION HEBERGEMENT */
-/* SECTION HEBERGEMENT */
 #hébergements {
 	display: flex;
 	flex-direction: column-reverse;
@@ -260,12 +259,12 @@ nav li:hover {
 }
 
 .grey-star {
-	color: #f2f2f2;
+	color: #cccccc;
 }
 
 .hébergements-marseille div {
 	margin-top: 2rem;
-	font-size: 125%;
+	font-size: 120%;
 	font-weight: bold;
 	margin-bottom: 2rem;
 }
@@ -283,6 +282,7 @@ nav li:hover {
 aside {
 	background: #f2f2f2;
 	margin-top: 1.5rem;
+	height: 565px;
 }
 
 aside header {
@@ -298,6 +298,7 @@ aside article {
 	margin-bottom: 1rem;
 	margin-left: 2rem;
 	margin-right: 2rem;
+	background-color: #fff;
 }
 
 .chart-line-black {
@@ -309,24 +310,38 @@ aside article {
 }
 
 aside img {
+	display: inline-block;
 	border-radius: 1rem;
 	border-radius: 1rem 0 0 1rem;
+	height: 8rem;
 	object-fit: cover;
-	height: 8em;
-	width: 100%;
+	width: 35%;
+	overflow: hidden;
 }
 
-aside h3 {
+aside .description {
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;
+}
+
+@media screen and (max-width: 620px) {
+	aside .description {
+		width: 46%;
+	}
+}
+
+.description h3 {
 	margin: 00.5rem;
 	color: #000;
 }
 
-aside p {
+.description p {
 	margin: 00.5rem;
 	color: #000;
 }
 
-aside span {
+.description span {
 	margin: 00.5rem;
 	font-size: 75%;
 	color: #000;
@@ -335,4 +350,66 @@ aside span {
 aside a {
 	color: #000;
 	text-decoration: none;
+}
+
+/* SECTION ACTIVITES */
+
+#activités {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+#activités article {
+	background: #fff;
+	border-radius: 1rem;
+	box-shadow: 0 0 10px #0000002e;
+	padding: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+#activités img {
+	border-radius: 1rem;
+	object-fit: cover;
+	border-radius: 1rem 1rem 0 0;
+	height: 8em;
+	width: 100%;
+}
+
+#activités h3 {
+	margin: 00.5rem;
+	color: #000;
+}
+
+#activités a {
+	color: #000;
+	text-decoration: none;
+}
+
+/* SECTION ACTIVITES */
+
+footer {
+	background: #f2f2f2;
+	display: flex;
+	flex-direction: column;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000;
+}
+
+footer a:hover {
+	color: #0065fc;
+
+}
+
+footer ul {
+	list-style: none;
+	margin-bottom: 1rem;
+
+}
+
+footer li {
+	margin-bottom: 1rem;
+
 }
