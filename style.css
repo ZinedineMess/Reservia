@@ -338,11 +338,14 @@ aside .description {
 .description h3 {
 	margin: 00.5rem;
 	color: #000;
+	font-size: 95%;
 }
 
 .description p {
 	margin: 00.5rem;
 	color: #000;
+	font-size: 95%;
+
 }
 
 .description span {
@@ -371,7 +374,8 @@ aside a {
 	margin-bottom: 1rem;
 }
 
-#activités img {
+.article-vertical img,
+.article-double img {
 	border-radius: 1rem;
 	object-fit: cover;
 	border-radius: 1rem 1rem 0 0;
@@ -570,20 +574,41 @@ footer li {
 	#activités {
 		margin-left: 2rem;
 		margin-top: 3rem;
-		margin-bottom: 3rem;
+		margin-bottom: 4rem;
 	}
 
 	.activités-article {
 		display: flex;
-		flex-wrap: nowrap;
 		flex-direction: row;
-		justify-content: space-between;
+		flex-wrap: nowrap;
 	}
 
-	.article-vertical {
-		height: 100%;
-		width: auto;
+	.activités-article article {
+		width: 90%;
+		font-size: 90%;
 	}
+
+	.article-vertical article {
+		height: 94%;
+	}
+
+	.article-double img {
+		border-radius: 1rem;
+		object-fit: cover;
+		border-radius: 1rem 1rem 0 0;
+		height: 8em;
+		width: 100%;
+	}
+
+	.article-vertical img {
+		height: 88%;
+	}
+
+	.article-vertical h3 {
+		width: 100%;
+	}
+
+
 
 	/* FOOTER */
 
