@@ -216,17 +216,17 @@ nav li:hover {
 }
 
 /* SECTION HEBERGEMENT */
-#hébergements {
+#hebergements {
 	display: flex;
 	flex-wrap: wrap-reverse;
 }
 
-.hébergements-marseille {
+.hebergements-marseille {
 	margin-left: 2rem;
 	margin-right: 2rem;
 }
 
-.hébergements-marseille article {
+.hebergements-marseille article {
 	background: #fff;
 	border-radius: 1rem;
 	box-shadow: 0 0 10px #0000002e;
@@ -234,7 +234,7 @@ nav li:hover {
 	margin-bottom: 1rem;
 }
 
-.hébergements-marseille img {
+.hebergements-marseille img {
 	border-radius: 1rem;
 	object-fit: cover;
 	border-radius: 1rem 1rem 0 0;
@@ -242,23 +242,23 @@ nav li:hover {
 	width: 100%;
 }
 
-.hébergements-marseille h3 {
+.hebergements-marseille h3 {
 	margin: 00.5rem;
 	color: #000;
 }
 
-.hébergements-marseille p {
+.hebergements-marseille p {
 	margin: 0.5rem;
 	margin-bottom: 0.4rem;
 	color: #000;
 }
 
-.hébergements-marseille span {
+.hebergements-marseille span {
 	margin: 00.5rem;
 	font-size: 75%;
 }
 
-.hébergements-marseille a {
+.hebergements-marseille a {
 	color: #000;
 	text-decoration: none;
 }
@@ -286,7 +286,6 @@ nav li:hover {
 /* SECTION HEBERGEMENt POPULAIRES */
 aside {
 	background: #f2f2f2;
-	margin-top: 1.5rem;
 }
 
 aside header {
@@ -310,7 +309,6 @@ aside article {
 	display: flex;
 	align-self: center;
 	margin-right: 1rem;
-
 }
 
 aside img {
@@ -327,12 +325,6 @@ aside .description {
 	display: inline-block;
 	vertical-align: top;
 	width: 35%;
-}
-
-@media screen and (max-width: 620px) {
-	aside .description {
-		width: 46%;
-	}
 }
 
 .description h3 {
@@ -360,18 +352,17 @@ aside a {
 }
 
 /* SECTION ACTIVITES */
-
-#activités {
+#activites {
 	margin-left: 2rem;
 	margin-right: 2rem;
 }
 
-#activités article {
+#activites article {
 	background: #fff;
 	border-radius: 1rem;
 	box-shadow: 0 0 10px #0000002e;
-	padding: 0.3rem;
-	margin-bottom: 1rem;
+	padding: 0;
+	margin-bottom: 2rem;
 }
 
 .article-vertical img,
@@ -383,18 +374,17 @@ aside a {
 	width: 100%;
 }
 
-#activités h3 {
+#activites h3 {
 	margin: 00.5rem;
 	color: #000;
 }
 
-#activités a {
+#activites a {
 	color: #000;
 	text-decoration: none;
 }
 
 /* FOOTER */
-
 footer {
 	background: #f2f2f2;
 	display: flex;
@@ -408,18 +398,15 @@ footer a {
 
 footer a:hover {
 	color: #0065fc;
-
 }
 
 footer ul {
 	list-style: none;
 	margin-bottom: 1rem;
-
 }
 
 footer li {
 	margin-bottom: 1rem;
-
 }
 
 /*  DESKTOP  */
@@ -498,13 +485,12 @@ footer li {
 	}
 
 	/* SECTION HEBERGEMENT */
-
-	#hébergements {
+	#hebergements {
 		flex-wrap: nowrap;
-		align-items: baseline;
+		align-items: stretch;
 	}
 
-	.hébergements-marseille,
+	.hebergements-marseille,
 	aside {
 		width: 100%;
 		background: #f2f2f2;
@@ -512,7 +498,7 @@ footer li {
 		padding: 2rem 1rem 1rem 1rem;
 	}
 
-	.hébergements-marseille div {
+	.hebergements-marseille div {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: row;
@@ -523,20 +509,20 @@ footer li {
 		margin-bottom: 0;
 	}
 
-	.hébergements-marseille h3 {
+	.hebergements-marseille h3 {
 		font-size: 100%;
 	}
 
-	.hébergements-marseille article {
+	.hebergements-marseille article {
 		width: 30%;
 	}
 
-	.hébergements-marseille h2 {
+	.hebergements-marseille h2 {
 		margin-top: auto;
 		margin-left: 1rem;
 	}
 
-	.hébergements-marseille p {
+	.hebergements-marseille p {
 		margin-top: 0.4rem;
 		font-size: 0.95rem;
 		white-space: nowrap;
@@ -570,20 +556,19 @@ footer li {
 	}
 
 	/* SECTION ACTIVITES */
-
-	#activités {
+	#activites {
 		margin-left: 2rem;
 		margin-top: 3rem;
 		margin-bottom: 4rem;
 	}
 
-	.activités-article {
+	.activites-article {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
 	}
 
-	.activités-article article {
+	.activites-article article {
 		width: 90%;
 		font-size: 90%;
 	}
@@ -608,10 +593,7 @@ footer li {
 		width: 100%;
 	}
 
-
-
 	/* FOOTER */
-
 	footer {
 		width: 100%;
 		display: flex;
@@ -623,4 +605,16 @@ footer li {
 		width: 80%;
 	}
 
+}
+
+/*  MOBILE  */
+/* Resolution de moins de 720px */
+@media screen and (max-width: 720px) {
+	aside .description {
+		width: 46%;
+	}
+
+	.last-article {
+		margin-bottom: 50px;
+	}
 }
