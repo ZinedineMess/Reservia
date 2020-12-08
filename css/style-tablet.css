@@ -18,7 +18,7 @@
     }
 
     article:hover,
-    figcaption:hover {
+    figure:hover {
         transform: scale(1.05);
     }
 
@@ -402,12 +402,14 @@
         margin-right: 2rem;
     }
 
-    figcaption {
+    figure {
         background: #fff;
         border-radius: 1rem;
         box-shadow: 0 0 10px #0000002e;
         padding: 0;
         margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .column1 img,
@@ -423,10 +425,11 @@
         width: 100%;
     }
 
-    #activites h3 {
+    figcaption {
         margin: 00.5rem;
         color: #000;
         font-size: 90%;
+        font-weight: bold;
     }
 
     #activites a {
