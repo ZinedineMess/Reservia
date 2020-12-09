@@ -5,10 +5,10 @@ Projet #2 : Transformez une maquette en site web.
 Reservia est un site de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.
 
 Installation du projet
-* Installation du repository git clone https://github.com/ZinedineMess/Reservia.git
+* Installation du repository git clone https://github.com/ZinedineMess/ZinedineMessahel_2_26112020.git
 
 Live demo
-* https://zinedinemess.github.io/Reservia/
+* https://zinedinemess.github.io/ZinedineMessahel_2_26112020/
 
 Langages utilisés
 * HTML5, CSS3
