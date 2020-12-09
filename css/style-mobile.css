@@ -1,6 +1,7 @@
 /*  MOBILE  */
-/* Resolution de moins de 720px */
+/* Resolution entre 320px et 767.98px */
 @media screen and (min-width: 320px) and (max-width: 767.98px) {
+
     /* GENERAL */
     html {
         font-family: 'Raleway', sans-serif;
@@ -22,7 +23,6 @@
         transform: scale(1.05);
     }
 
-
     /*  HEADER  */
     .header-container {
         display: flex;
@@ -32,8 +32,6 @@
     }
 
     .header-container h1 {
-        display: block;
-        width: auto;
         margin-left: 1rem;
     }
 
@@ -80,7 +78,6 @@
 
     .inscrire {
         display: flex;
-        align-items: center;
         margin-right: 1rem;
         margin-left: 1rem;
         color: #0065fc;
@@ -95,7 +92,6 @@
     }
 
     .search-section header h2 {
-        font-weight: bolder;
         display: flex;
         flex-wrap: wrap;
         margin-right: 6rem;
@@ -127,7 +123,6 @@
 
     .search-form button {
         background-color: #0065fc;
-        font-weight: bold;
         border: none;
         font-size: 100%;
         border-radius: 1rem;
@@ -229,7 +224,6 @@
     }
 
     .hebergements-marseille article {
-        background: #fff;
         border-radius: 1rem;
         box-shadow: 0 0 10px #0000002e;
         padding: 0.3rem;
@@ -311,6 +305,7 @@
         display: flex;
         align-self: center;
         margin-right: 1rem;
+        font-size: 1.5rem;
     }
 
     aside img {
@@ -339,7 +334,6 @@
         margin: 00.5rem;
         color: #000;
         font-size: 95%;
-
     }
 
     .description span {
@@ -367,14 +361,11 @@
         margin-right: 2rem;
     }
 
-    figure {
-        background: #fff;
+    .activites-column article {
         border-radius: 1rem;
         box-shadow: 0 0 10px #0000002e;
         padding: 0;
         margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .column1 img,
@@ -390,7 +381,7 @@
         width: 100%;
     }
 
-    figcaption {
+    .activites-column h3 {
         margin: 00.5rem;
         color: #000;
         font-size: 90%;

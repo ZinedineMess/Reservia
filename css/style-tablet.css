@@ -1,6 +1,7 @@
-/*  Tablet  */
-/* Resolution de moins de 720px */
+/*  TABLET  */
+/* Resolution entre 768px et 1148.98px */
 @media screen and (min-width: 768px) and (max-width: 1148.98px) {
+
     /* GENERAL */
     html {
         font-family: 'Raleway', sans-serif;
@@ -21,7 +22,6 @@
     figure:hover {
         transform: scale(1.05);
     }
-
 
     /*  HEADER  */
     .header-container {
@@ -80,7 +80,6 @@
 
     .inscrire {
         display: flex;
-        align-items: center;
         margin-right: 1rem;
         margin-left: 1rem;
         color: #0065fc;
@@ -92,13 +91,6 @@
     /*  SECTION RECHERCHE  */
     .search-section {
         margin-left: 2rem;
-    }
-
-    .search-section header h2 {
-        font-weight: bolder;
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: 6rem;
     }
 
     .search-form {
@@ -127,7 +119,6 @@
 
     .search-form button {
         background-color: #0065fc;
-        font-weight: bold;
         border: none;
         font-size: 100%;
         border-radius: 1rem;
@@ -241,7 +232,6 @@
     }
 
     .hebergements-marseille article {
-        background: #fff;
         border-radius: 1rem;
         box-shadow: 0 0 10px #0000002e;
         padding: 0.3rem;
@@ -252,7 +242,6 @@
     .hebergements-marseille div {
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
         justify-content: space-between;
         margin-left: 1rem;
         margin-right: 2rem;
@@ -278,7 +267,6 @@
         margin: 0.5rem;
         margin-bottom: 0.4rem;
         color: #000;
-
         margin-top: 0.4rem;
         font-size: 0.95rem;
         white-space: nowrap;
@@ -341,9 +329,8 @@
 
     .chart-line-black {
         color: #000;
-        display: flex;
-        align-self: center;
         margin-right: 1rem;
+        font-size: 1.5rem;
     }
 
     aside img {
@@ -372,7 +359,6 @@
         margin: 00.5rem;
         color: #000;
         font-size: 95%;
-
     }
 
     .description span {
@@ -402,14 +388,11 @@
         margin-right: 2rem;
     }
 
-    figure {
-        background: #fff;
+    .activites-column article {
         border-radius: 1rem;
         box-shadow: 0 0 10px #0000002e;
         padding: 0;
         margin-bottom: 2rem;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .column1 img,
@@ -425,7 +408,7 @@
         width: 100%;
     }
 
-    figcaption {
+    .activites-column h3 {
         margin: 00.5rem;
         color: #000;
         font-size: 90%;
