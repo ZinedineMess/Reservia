@@ -1,4 +1,5 @@
-Reservia
+Reservia.
+
 Ce projet est crée dans le cadre de ma formation « Développeur Front-End » chez OpenClassRooms.
 Projet #2 : Transformez une maquette en site web.
 Reservia est un site de planification de vacances. Leur site permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Les hébergements peuvent également être filtrés par thématique, par exemple leur budget ou leur ambiance.
