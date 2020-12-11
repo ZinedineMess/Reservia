@@ -233,7 +233,7 @@
     }
 
     .hebergements-marseille,
-    aside {
+    .hebergements-populaires {
         width: 100%;
         background: #f2f2f2;
         border-radius: 1rem;
@@ -321,7 +321,7 @@
     }
 
     /* SECTION HEBERGEMENt POPULAIRES */
-    aside {
+    .hebergements-populaires {
         width: 45%;
         margin-right: 2rem;
         display: flex;
@@ -329,17 +329,17 @@
         justify-content: space-around;
     }
 
-    aside header {
+    .hebergements-populaires header {
         margin-left: 2rem;
         display: flex;
         justify-content: space-between;
     }
 
-    aside h2 {
+    .hebergements-populaires h2 {
         margin-top: auto;
     }
 
-    aside article {
+    .hebergements-populaires article {
         border-radius: 1rem;
         box-shadow: 0 0 10px #0000002e;
         padding: 0.3rem;
@@ -356,7 +356,7 @@
         font-size: 1.5rem;
     }
 
-    aside img {
+    .hebergements-populaires img {
         display: inline-block;
         border-radius: 1rem;
         border-radius: 1rem 0 0 1rem;
@@ -366,7 +366,7 @@
         overflow: hidden;
     }
 
-    aside .description {
+    .hebergements-populaires .description {
         display: inline-block;
         vertical-align: top;
         width: 45%;
@@ -394,7 +394,7 @@
         color: #000;
     }
 
-    aside a {
+    .hebergements-populaires a {
         color: #000;
         text-decoration: none;
     }
