@@ -89,6 +89,7 @@
     /*  SECTION RECHERCHE  */
     .search-section {
         margin-left: 2rem;
+        padding-bottom: 2rem;
     }
 
     .search-section header h2 {
@@ -282,6 +283,7 @@
     /* SECTION HEBERGEMENt POPULAIRES */
     .hebergements-populaires {
         background: #f2f2f2;
+        padding-bottom: 1.5rem;
     }
 
     .hebergements-populaires header {
@@ -359,13 +361,14 @@
     #activites {
         margin-left: 2rem;
         margin-right: 2rem;
+        padding-bottom: 1rem;
     }
 
     .activites-column article {
         border-radius: 1rem;
         box-shadow: 0 0 10px #0000002e;
-        padding: 0;
         margin-bottom: 2rem;
+        height: auto;
     }
 
     .column1 img,
@@ -384,8 +387,8 @@
     .activites-column h3 {
         margin: 00.5rem;
         color: #000;
-        font-size: 90%;
-        font-weight: bold;
+        font-size: 100%;
+        padding-bottom: 0.5rem;
     }
 
     #activites a {

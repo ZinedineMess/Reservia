@@ -91,6 +91,7 @@
     /*  SECTION RECHERCHE  */
     .search-section {
         margin-left: 2rem;
+        padding-bottom: 2rem;
     }
 
     .search-form {
@@ -217,13 +218,12 @@
     .hebergements-marseille,
     .hebergements-populaires {
         width: 100%;
-        border-radius: 1rem;
         padding: 2rem 1rem 1rem 1rem;
     }
 
     .hebergements-marseille {
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .hebergements-marseille h2 {
@@ -243,8 +243,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-left: 1rem;
-        margin-right: 1rem;
         margin-top: 2rem;
         margin-bottom: 0;
     }
@@ -305,6 +303,7 @@
     /* SECTION HEBERGEMENt POPULAIRES */
     .hebergements-populaires {
         background: #f2f2f2;
+        padding-bottom: 2.5rem;
     }
 
     .hebergements-populaires h2 {
@@ -393,6 +392,8 @@
         box-shadow: 0 0 10px #0000002e;
         padding: 0;
         margin-bottom: 2rem;
+        height: auto;
+        margin-top: 1rem;
     }
 
     .column1 img,
@@ -404,15 +405,27 @@
         border-radius: 1rem;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0;
-        height: 8em;
+        height: 8rem;
         width: 100%;
     }
 
-    .activites-column h3 {
-        margin: 00.5rem;
+    .column4 h3,
+    .column5 h3 {
         color: #000;
-        font-size: 90%;
-        font-weight: bold;
+        font-size: 75%;
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        height: 1.5rem;
+    }
+
+    .column1 h3,
+    .column2 h3,
+    .column3 h3,
+    .column6 h3 {
+        color: #000;
+        font-size: 75%;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
     }
 
     #activites a {
